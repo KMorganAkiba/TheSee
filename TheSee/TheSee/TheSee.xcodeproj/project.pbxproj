@@ -14,6 +14,7 @@
 		2E0653D42C9670D100D4780E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0653D32C9670D100D4780E /* LocationManager.swift */; };
 		2E0653D72C96740100D4780E /* Welcome view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0653D62C96740100D4780E /* Welcome view.swift */; };
 		2E0653D92C967C0300D4780E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0653D82C967C0300D4780E /* LoadingView.swift */; };
+		2E0653DB2C96862C00D4780E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0653DA2C96862C00D4780E /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2E0653D32C9670D100D4780E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		2E0653D62C96740100D4780E /* Welcome view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Welcome view.swift"; sourceTree = "<group>"; };
 		2E0653D82C967C0300D4780E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2E0653DA2C96862C00D4780E /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2E0653D32C9670D100D4780E /* LocationManager.swift */,
+				2E0653DA2C96862C00D4780E /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0653DB2C96862C00D4780E /* WeatherManager.swift in Sources */,
 				2E0653D72C96740100D4780E /* Welcome view.swift in Sources */,
 				2E0653C72C96704000D4780E /* ContentView.swift in Sources */,
 				2E0653C52C96704000D4780E /* TheSeeApp.swift in Sources */,

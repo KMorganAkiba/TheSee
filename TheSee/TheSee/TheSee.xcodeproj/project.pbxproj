@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,10 @@
 		2E0653E22C97D67000D4780E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2E4128592CA772DB0017C21D /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		2E0653BE2C96703F00D4780E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -67,12 +71,13 @@
 		2E0653C32C96703F00D4780E /* TheSee */ = {
 			isa = PBXGroup;
 			children = (
-				2E0653D52C9672FF00D4780E /* Views */,
-				2E0653D22C9670A300D4780E /* Managers */,
 				2E0653C42C96704000D4780E /* TheSeeApp.swift */,
 				2E0653C82C96704100D4780E /* Assets.xcassets */,
+				2E0653D52C9672FF00D4780E /* Views */,
+				2E0653D22C9670A300D4780E /* Managers */,
 				2E0653CA2C96704100D4780E /* Preview Content */,
 				2E0653E22C97D67000D4780E /* Extensions.swift */,
+				2E4128592CA772DB0017C21D /* Components */,
 			);
 			path = TheSee;
 			sourceTree = "<group>";
@@ -121,6 +126,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2E4128592CA772DB0017C21D /* Components */,
 			);
 			name = TheSee;
 			productName = TheSee;
